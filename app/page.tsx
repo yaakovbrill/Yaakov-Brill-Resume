@@ -1,3 +1,9 @@
+import ContactSection from "./components/contactSection";
+
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <>
+      <ContactSection/>
+    </>
+  )
 }
