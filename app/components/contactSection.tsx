@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaLinkedin, FaPhone, FaEnvelope } from "react-icons/fa";
+import { FaLinkedin, FaPhone, FaEnvelope, FaGithub } from "react-icons/fa";
 
 const ContactDetails = () => {
   return (
@@ -7,21 +7,27 @@ const ContactDetails = () => {
       <hr className="w-1/2 border-gray-300 mb-4"/>
       <div className="flex space-x-4">
         <Link href="https://www.linkedin.com/in/yaakovbrill/" target="_blank" rel="noopener noreferrer">
-          <div className="flex items-center text-blue-600 hover:text-blue-800">
-            <FaLinkedin className="mr-2" />
+          <div className="flex items-center text-gray-800 hover:text-gray-900 underline">
+            <FaLinkedin className="mr-2 text-blue-600 hover:text-blue-800" />
             LinkedIn
           </div>
         </Link>
         <Link href="tel:+270624139839">
-          <div className="flex items-center text-green-600 hover:text-green-800">
-            <FaPhone className="mr-2" />
+          <div className="flex items-center text-gray-800 hover:text-gray-900">
+            <FaPhone className="mr-2 text-green-600 hover:text-green-800" />
             +27 0624139839
           </div>
         </Link>
         <Link href="mailto:yaakovbrill@gmail.com">
-          <div className="flex items-center text-gray-600 hover:text-gray-800">
+          <div className="flex items-center text-gray-800 hover:text-gray-900">
             <FaEnvelope className="mr-2" />
             yaakovbrill@gmail.com
+          </div>
+        </Link>
+        <Link href="https://github.com/yaakovbrill/resume/" target="_blank" rel="noopener noreferrer">
+          <div className="flex items-center text-gray-800 hover:text-gray-900 underline">
+            <FaGithub className="mr-2" />
+            GitHub
           </div>
         </Link>
       </div>
