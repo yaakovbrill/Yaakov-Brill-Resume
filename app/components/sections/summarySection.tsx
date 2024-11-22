@@ -5,8 +5,7 @@ export default function SummarySection() {
     <section>
         <SectionTitle title={"Summary"}/>
         <p className="text-gray-700">
-            Experienced Software developer with a focus on full-stack development, including React, Next.js, and C#. 
-            Currently based in South Africa, seeking a remote opportunity. Note that I am a US citizen.
+            Software Developer with 1.5 years of experience specializing in full-stack development, proficient in React, C# and .NET. 
         </p>
     </section>
   )
