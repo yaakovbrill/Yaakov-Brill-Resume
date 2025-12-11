@@ -1,6 +1,6 @@
 # Yaakov Brill Resume
 
-Welcome to my resume page! 
+Welcome to my resume page!
 
 You can view my resume [here](https://yaakovbrill.vercel.app/).
 
