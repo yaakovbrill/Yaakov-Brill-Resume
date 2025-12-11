@@ -18,12 +18,6 @@ const ContactDetails = () => {
             yaakovbrill@gmail.com
           </div>
         </Link>
-        <Link href="tel:+270624139839">
-          <div className="flex items-center text-green-600 hover:text-green-800">
-            <FaPhone className="mr-2" />
-            +27 0624139839
-          </div>
-        </Link>
         <Link href="https://github.com/yaakovbrill" target="_blank" rel="noopener noreferrer">
           <div className="flex items-center text-gray-700 hover:text-gray-900 underline">
             <FaGithub className="mr-2" />
