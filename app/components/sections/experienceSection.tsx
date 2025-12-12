@@ -14,7 +14,7 @@ export default function ExperienceSection() {
 
           <div className="flex justify-between items-center mt-1">
             <p className="font-semibold text-gray-700">Junior Software Developer</p>
-            <span className="text-gray-500">07/2023 - Current</span>
+            <span className="text-gray-500">07/2023 - 07/2025</span>
           </div>
 
           <ul className="list-disc list-inside mt-2 text-gray-700">
